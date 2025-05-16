@@ -1,6 +1,10 @@
 <script>
     import Auftraege from "$lib/components/Auftraege.svelte";
     let {data} = $props();
+
+    let filter = '';
+
+    
 </script>
 
 <h3>Aufträge</h3>
@@ -9,14 +13,6 @@
     <a href="/auftraege/create" class="btn btn-success"><i class="bi bi-plus-lg"></i>Auftrag</a>
 </div>    
 
-<div class="col-3 mb-3">
-    <select class="form-select mb-3 col-6" id="">
-        <option value="">Alle</option>
-        <option value="offen">Offen</option>
-        <option value="warten">In Bearbeitung</option>
-        <option value="abgeschlossen">Abgeschlossen</option>
-    </select>
-</div>
 
 <div class="row">
     
