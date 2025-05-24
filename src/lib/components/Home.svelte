@@ -28,7 +28,8 @@
       <div class="card-body">
         <h5 class="card-title">Finance</h5>
         <h1 class="card-text"><i class="bi bi-bank"></i></h1>
-        <a href="/" class="btn btn-outline-primary disabled" >Start</a>
+        <a href="/" class="btn btn-outline-primary disabled" >Start <i class="bi bi-file-lock"></i></a>
+  
       </div>
     </div>
 

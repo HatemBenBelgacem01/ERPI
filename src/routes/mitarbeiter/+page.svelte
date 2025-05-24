@@ -4,8 +4,9 @@
 </script>
 
 
-
-    <h3>Mitarbeiter</h3>
+<div class="container">
+  <h3>Mitarbeiter</h3>
+  <hr>
     <div class="mb-3">
       <a class="btn btn-success" data-bs-target="#exampleModal" href="/mitarbeiter/create"><i class="bi bi-plus-lg"></i> Mitarbeiter</a>
     </div>
@@ -34,6 +35,8 @@
             {/each}
           </tbody>
     </table>
+</div>
+    
 
     <style>
       td {

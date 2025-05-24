@@ -4,7 +4,7 @@
   // Destrukturierung mit Fallback auf leeres Objekt
   const { mitarbeiter = {} } = data || {};
 </script>
-
+<div class="container">
 <p>Vorname: {mitarbeiter.vorname}</p>
 <p>Nachname: {mitarbeiter.nachname}</p>
 <p>E-Mail: {mitarbeiter.email}</p>
@@ -16,3 +16,5 @@
 </form>
 
 <a href="/mitarbeiter" class="btn btn-outline-secondary"><i class="bi bi-arrow-left-square"></i> Zurück</a>
+</div>
+

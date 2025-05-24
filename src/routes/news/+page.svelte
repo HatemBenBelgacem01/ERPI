@@ -3,11 +3,10 @@
     let {data} = $props();
 </script>
 
-<h1>News</h1>
-
-
-
-{#each data.news as news}
+<div class="container">
+    <h1>News</h1>
+    <hr>
+    {#each data.news as news}
     <a href="/news/{news._id}" style="text-decoration: none; color: inherit;">
         <News 
         titel={news.titel}
@@ -17,3 +16,4 @@
     </a>
    
 {/each}
+</div>

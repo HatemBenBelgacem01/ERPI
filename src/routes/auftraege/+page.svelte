@@ -16,6 +16,7 @@
 </script>
 <div class="container">
     <h3>Aufträge</h3>
+    <hr>
 
 <div class="mb-3">
     <a href="/auftraege/create" class="btn btn-success"
