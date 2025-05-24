@@ -10,15 +10,12 @@
         if (statusFilter === "") {
             liste = [...daten];
         } else {
-            console.log("auftrag suchen");
             liste = daten.filter((filter) => filter.status === statusFilter);
-            console.log(liste);
         }
     }
-
 </script>
-
-<h3>Aufträge</h3>
+<div class="container">
+    <h3>Aufträge</h3>
 
 <div class="mb-3">
     <a href="/auftraege/create" class="btn btn-success"
@@ -57,3 +54,5 @@
         </div>
     {/each}
 </div>
+</div>
+
